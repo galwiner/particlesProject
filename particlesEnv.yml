@@ -9,6 +9,7 @@ dependencies:
   - certifi=2018.11.29=py37_0
   - colorama=0.4.1=py37_0
   - cycler=0.10.0=py37_0
+  - cython=0.29.2=py37ha925a31_0
   - decorator=4.3.0=py37_0
   - entrypoints=0.2.3=py37_2
   - fastcache=1.0.2=py37hfa6e2cd_2
@@ -95,5 +96,6 @@ dependencies:
   - zlib=1.2.11=h62dcd97_3
   - pip:
     - arc-alkali-rydberg-calculator==2.0.5
+    - qutip==4.3.1
 prefix: C:\Users\fewin\Anaconda3\envs\particles
 
