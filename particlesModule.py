@@ -11,9 +11,9 @@ class particle:
     #         self.m=arc.Rubidium87.mass
     def ownField(self,r):
         try:
-            return 1 / ((r - self.r))
+            return 0*1 / ((r - self.r))
         finally:
-            return np.random.uniform(-5,5,(1,3))
+            return 0*np.random.uniform(-5,5,(1,3))
 
     def __repr__(self):
         return ("particle in r=[{0},{1},{2}],p=[{3},{4},{5}]".format(*self.r, *self.p))
